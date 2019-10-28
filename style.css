@@ -1,0 +1,42 @@
+.header  {
+  height: 40px;
+  width: 100%;
+  background-color: black;
+}
+
+ul li {
+  color: white;
+  display: inline-block;
+  position: relative;
+  padding: 6px;
+  left: 0;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 5px;
+  color: white;
+  text-align: left;
+  font-weight: bolder;
+}
+
+.container {
+  background-color: #eee;
+  margin: 0 auto;
+}
+
+p {
+  column-count: 4;
+  column-rule: 2px solid black;
+  column-gap: 10px;
+}
+
+.footer {
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+}
